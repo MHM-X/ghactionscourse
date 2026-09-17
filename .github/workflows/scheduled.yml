@@ -1,0 +1,14 @@
+name: scheduled workflow
+
+on: 
+  schedule:
+    - cron: "0 8 * * 1"
+
+jobs:
+  daily-task:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Print message
+        run: echo "Rnning the scheduled task"
+      
