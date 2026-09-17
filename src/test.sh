@@ -13,7 +13,7 @@ exit 0
 
 else
 
-echo "Test failed! Expected '$EXPECTED' but got '$OUTPUT'"
+echo "Test faileddd! Expected '$EXPECTED' but got '$OUTPUT'"
 exit 1
 
 fi
